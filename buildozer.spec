@@ -3,13 +3,13 @@ title = Ebenesis gamer
 package.name = ebenesisgamer
 package.domain = com.exemplo
 source.dir = .
-source.include_exts = py,png,jpg,mp3,txt,wav,json
+source.include_exts = py,png,mp3,txt
 version = 1.0.0
 requirements = python3,kivy
 
-# Configuração do Ícone do Aplicativo
+# Configuração do Ícone Oficial (Alterado para jogador.png)
 android.presplash_color = #01021A
-icon.filename = %(source.dir)s/fundo.png
+icon.filename = %(source.dir)s/jogador.png
 
 # Configurações Universais para Android
 orientation = portrait
