@@ -7,7 +7,7 @@ source.include_exts = py,png,mp3,txt
 version = 1.0.0
 requirements = python3,kivy
 
-# Configuração do Ícone Oficial (Alterado para jogador.png)
+# Configuração correta sem o fundo.png
 android.presplash_color = #01021A
 icon.filename = %(source.dir)s/jogador.png
 
