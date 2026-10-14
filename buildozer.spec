@@ -1,11 +1,15 @@
 [app]
-title = Minha App
-package.name = minhaapp
+title = Ebenesis gamer
+package.name = ebenesisgamer
 package.domain = com.exemplo
 source.dir = .
 source.include_exts = py,png,jpg,mp3,txt,wav,json
 version = 1.0.0
 requirements = python3,kivy
+
+# Configuração do Ícone do Aplicativo
+android.presplash_color = #01021A
+icon.filename = %(source.dir)s/fundo.png
 
 # Configurações Universais para Android
 orientation = portrait
